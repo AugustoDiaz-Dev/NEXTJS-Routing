@@ -1,0 +1,43 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin-top: 1em;
+    text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+h1, h2, h3, p, button {
+  margin: 1em;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  padding: .5em 1em;
+  background-color: aqua;
+  border: 2px solid grey;
+  margin: .25em;
+  border-radius: 6px;
+}
+li {
+  list-style-type: none;
+}
+button {
+  background-color: blue;
+  border: 2px solid white;
+  padding: 1em 1.5em;
+  border-radius: 6px;
+  color: white;
+}
+button:hover {
+  background-color: white;
+  border: 2px solid blue;
+  padding: 1em 1.5em;
+  border-radius: 6px;
+  color: blue;
+}
+
